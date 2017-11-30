@@ -8,6 +8,8 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 ## Installation & run
 
+Copy the .env.example file to .env
+
 ##### After you install the database create a schema matching the informations in .env file in the projects' root folder.
 
 You can change the next entries as it suits you before you build the db image. 
