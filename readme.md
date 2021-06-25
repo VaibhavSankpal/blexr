@@ -31,11 +31,7 @@ You can change the next entries as it suits you before you build the db image.
 
 ### Run 
 
-##### To make sure that you installation is succesfull navigate in the projects' root folder and run php server :
-
-`php artisan serve`
-
-Then you should be able to open 127.0.0.1:8000 in your browser and login with:
+Once you setup apache then you should be able to open 127.0.0.1 in your browser and login with:
 `'test@app.com'` / `'password'` .
 
 If you are able to login then everything is ok. 
