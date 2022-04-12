@@ -18,5 +18,5 @@ RUN a2enmod rewrite
 COPY web-app/ /var/www/html
 COPY .env /var/www/html
 
-# Entrypoint of your execution
-#CMD ['']
+# Expose the port 80
+EXPOSE 80
