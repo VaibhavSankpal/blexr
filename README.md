@@ -22,5 +22,11 @@ About the Dockerfile:
 
 
 The commands used to build and run the docker image are as follows respectively:
-1. docker build -t blexr-php:latest .
-2. docker run -d -p 80:80 blexr-php:latest
+1. docker build -t blexr-php:latest .             ....(Assuming this command to be executed where Dockerfile is present)
+2. docker run -i --rm --name blexr-cont -p 80:80 blexr-php:latest
+
+where..
+  -t = tag for image to be built
+  -i = interactive mode
+  --rm = remove the container as soon as it stops
+  -p = specifying the port
